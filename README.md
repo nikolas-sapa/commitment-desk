@@ -10,7 +10,7 @@ Genuine NVIDIA/Nebius baseline:18/20 factual/supported answers (agent review),fi
 
 ## Public test build
 
-[Public source repository](https://github.com/nikolas-sapa/commitment-desk) and [v0.1.3 test-build release](https://github.com/nikolas-sapa/commitment-desk/releases/tag/v0.1.3). Download [source ZIP](https://github.com/nikolas-sapa/commitment-desk/releases/download/v0.1.3/commitment-desk-v0.1.3.zip), extract it, then follow setup below. Default replay is free and requires no API key. The clean public history starts at this snapshot; earlier revision IDs in evidence refer to local development history. Executable source matches the verified source8dc2f42.
+[Public source repository](https://github.com/nikolas-sapa/commitment-desk) and [v0.1.4 test-build release](https://github.com/nikolas-sapa/commitment-desk/releases/tag/v0.1.4). Download [source ZIP](https://github.com/nikolas-sapa/commitment-desk/releases/download/v0.1.4/commitment-desk-v0.1.4.zip), extract it, then follow setup below. Default replay is free and requires no API key. The clean public history starts at this snapshot; earlier revision IDs in evidence refer to local development history. Executable source matches the verified source8dc2f42.
 
 Public YouTube upload and Devpost submission are still pending authenticated browser access. Entrant confirmed submission rights and no organizer/sponsor conflicts October12,2026.
 

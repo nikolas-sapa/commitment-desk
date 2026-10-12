@@ -1,6 +1,6 @@
 # Judge setup and review
 
-October12,2026. [Public repository](https://github.com/nikolas-sapa/commitment-desk) and [pinned v0.1.3 test build](https://github.com/nikolas-sapa/commitment-desk/releases/tag/v0.1.3). Download [source ZIP](https://github.com/nikolas-sapa/commitment-desk/releases/download/v0.1.3/commitment-desk-v0.1.3.zip), extract it and follow setup below. Local source includes real provider evidence; default app mode is synthetic replay.
+October12,2026. [Public repository](https://github.com/nikolas-sapa/commitment-desk) and [pinned v0.1.4 test build](https://github.com/nikolas-sapa/commitment-desk/releases/tag/v0.1.4). Download [source ZIP](https://github.com/nikolas-sapa/commitment-desk/releases/download/v0.1.4/commitment-desk-v0.1.4.zip), extract it and follow setup below. Local source includes real provider evidence; default app mode is synthetic replay.
 
 ## Setup
 

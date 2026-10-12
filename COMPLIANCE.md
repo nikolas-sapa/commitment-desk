@@ -1,6 +1,6 @@
 # Entry compliance
 
-October11,2026. Local candidate, genuine NVIDIA/Nebius evidence verified. Public distribution and submission remain unapproved. See submission/checklist.md and reports/genuine/overview.md.
+October12,2026. Genuine NVIDIA/Nebius evidence verified. Entrant authorized publication and submission;public repository published. Release verification,YouTube upload and final Devpost submission remain pending. See submission/checklist.md and reports/genuine/overview.md.
 
 Official event sources refreshed October12 by Luna. [Rules](https://nebiusglobalaihackathon.devpost.com/rules): deadline October30,2026 at10:00PDT (19:00Athens); free judge access through December15 at12:00PST (22:00Athens). Personal AI provisional track. Required public licensed repository, working demo/test-build, setup README, English description, public YouTube video under3 minutes and platform feedback remain distinct publication requirements.
 
