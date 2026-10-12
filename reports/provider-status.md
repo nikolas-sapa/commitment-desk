@@ -15,4 +15,4 @@ October11,2026. Genuine synthetic evaluation completed where responses were avai
 
 [Detailed evidence and revision limits](genuine/overview.md). Exact citations and structure do not establish semantic correctness. No generated injection records applied or external actions executed. All failed/rejected/unrun cases preserved. No ledger reset,cap increase or automatic retry.
 
-Retention and billing reconciliation require account-side evidence. Additional credits are not new spending authorization. Entrant authorized publication and submission October12. Public repository published;release verification,YouTube upload and Devpost submission remain pending.
+Retention and billing reconciliation require account-side evidence. Additional credits are not new spending authorization. Entrant authorized publication and submission October12. Public repository,test-build release,YouTube demo and Devpost submission verified. See [submission verification](submission-verification-2026-10-12.md). Publication checks made zero model calls.
