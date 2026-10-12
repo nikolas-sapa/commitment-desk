@@ -1,6 +1,6 @@
 # Judge setup and review
 
-October11,2026. Public pinned build/repository URL pending approval. Local source includes real provider evidence; default app mode is synthetic replay.
+October12,2026. [Public repository](https://github.com/nikolas-sapa/commitment-desk) and [pinned v0.1.3 test build](https://github.com/nikolas-sapa/commitment-desk/releases/tag/v0.1.3). Download [source ZIP](https://github.com/nikolas-sapa/commitment-desk/releases/download/v0.1.3/commitment-desk-v0.1.3.zip), extract it and follow setup below. Local source includes real provider evidence; default app mode is synthetic replay.
 
 ## Setup
 
@@ -22,4 +22,4 @@ No email/shell/calendar actions. Deletion covers linked active application recor
 
 Saved genuine runs use exact NVIDIA Nano via Nebius. Response structure/citations and local seals checked; agent judgments declare identity and revision. Hashes provide local consistency, not independent attestation. Current checkout defaults disabled and contains no entrant key.
 
-Public distribution must preserve free judge access through December15,2026 at12:00PST (22:00Athens). A local bundle is not a public URL. Verify pinned download,setup and video links after approval against [official rules](https://nebiusglobalaihackathon.devpost.com/rules). Judge-funded credentials are not required for default replay.
+Public distribution must preserve free judge access through December15,2026 at12:00PST (22:00Athens). The public test-build path requires no entrant key or judge-funded inference. YouTube publication is pending authenticated browser access; final public links must be verified against [official rules](https://nebiusglobalaihackathon.devpost.com/rules). Judge-funded credentials are not required for default replay.

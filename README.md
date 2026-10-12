@@ -6,7 +6,13 @@ Local-first prototype for turning selected notes into cited commitments, prefere
 
 Current source8dc2f42 verified October11,2026: fresh checkout install,85/85 tests,app/font HTTP200 and55-case disabled live preparation. Historical October8 local evaluation retained. Browser checked import, exact preview, labeled replay, apply, supersession, correction, and desktop/mobile layouts. Independent code/security reviews have no unresolved material findings. See [verification evidence](reports/verification.md), [evaluation](reports/evaluation.md), and [review dispositions](reports/review.md).
 
-Genuine NVIDIA/Nebius baseline:18/20 factual/supported answers (agent review),five locally approved workflows,20 extraction requests estimated at$0.00668208. Baseline injection review:9/10 safe;full safety target failed. Current hardening has six safe validated abstentions;request failure left full target incomplete. [Evidence and revision limits](reports/genuine/overview.md). Actual invoice,public distribution and submission remain pending. Fixture replay demonstrates state handling only.
+Genuine NVIDIA/Nebius baseline:18/20 factual/supported answers (agent review),five locally approved workflows,20 extraction requests estimated at$0.00668208. Baseline injection review:9/10 safe;full safety target failed. Current hardening has six safe validated abstentions;request failure left full target incomplete. [Evidence and revision limits](reports/genuine/overview.md). Actual invoice and Devpost submission remain pending. Fixture replay demonstrates state handling only.
+
+## Public test build
+
+[Public source repository](https://github.com/nikolas-sapa/commitment-desk) and [v0.1.3 test-build release](https://github.com/nikolas-sapa/commitment-desk/releases/tag/v0.1.3). Download [source ZIP](https://github.com/nikolas-sapa/commitment-desk/releases/download/v0.1.3/commitment-desk-v0.1.3.zip), extract it, then follow setup below. Default replay is free and requires no API key. The clean public history starts at this snapshot; earlier revision IDs in evidence refer to local development history. Executable source matches the verified source8dc2f42.
+
+Public YouTube upload and Devpost submission are still pending authenticated browser access. Entrant confirmed submission rights and no organizer/sponsor conflicts October12,2026.
 
 ## Verified local setup
 
@@ -47,4 +53,4 @@ Deleting a memory removes linked active sources, memories, tasks, and pending pr
 
 No vault/account ingestion, shell execution, email/calendar actions, or hosted storage. Demo fixtures contain synthetic data. Read [SPEC.md](SPEC.md) for contracts and current verification gates. See [submission/checklist.md](submission/checklist.md) for artifact status.
 
-[Judge guide](submission/judge-guide.md) describes the verified replay/setup path and remaining public-access requirements. [Current model preflight](reports/MODEL-PREFLIGHT.md) records advertised candidate rates/license and unresolved account/billing facts. Official event sources refreshed October9; public access remains pending.
+[Judge guide](submission/judge-guide.md) describes the verified replay/setup path and remaining public-access requirements. [Current model preflight](reports/MODEL-PREFLIGHT.md) records advertised candidate rates/license and unresolved account/billing facts. Official event sources refreshed October12; public source and downloadable test-build access are provided above. YouTube and final submission remain pending.
