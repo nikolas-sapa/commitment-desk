@@ -29,3 +29,7 @@ Plan: PLAN.md. Branch hackathon/commitment-desk. User local go-ahead October 8. 
 | 23 | Final source8dc2f42 | Main | freshcheckout,reports,source release |85/85tests,HTTP200,font33400bytes,dry55disabled,no secrets |Verified;local-candidate-v0.1.3 source snapshot packaging,public approval pending |
 
 Workers preserve concurrent changes; no manifests/contracts/locks/deploy modifications, no children/commits/spending. Main handles any real provider calls. Luna escalates after1 substantive failure/unclear contract. Task2 and3 independently reviewed after runnable delivery; final reviews read-only. Changed task ownership/contract decisions recorded before execution.
+
+## Public continuation, October12,2026
+
+Entrant approved publication/submission and confirmed rights/no organizer/sponsor conflicts. Clean public source and v0.1.4 release published to nikolas-sapa/commitment-desk. Anonymous source/video downloads hash-matched;downloaded source installed and passed85/85tests,app/fontHTTP200,0providercalls. Prior local task rows describe their earlier checkpoints. Public YouTube upload and Devpost receipt remain pending authenticated controllable browser access. See reports/public-release-verification-2026-10-12.md.

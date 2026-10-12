@@ -1,6 +1,6 @@
 # Concrete publication proposal
 
-October12,2026: entrant authorized all necessary publication/submission actions,confirmed rights and no organizer/sponsor conflicts. Public GitHub source created as a clean snapshot. Release preparation and anonymous setup verification continue;YouTube upload and Devpost remain pending authenticated browser access.
+October12,2026: entrant authorized all necessary publication/submission actions,confirmed rights and no organizer/sponsor conflicts. Public GitHub source created as a clean snapshot. Release v0.1.4 and anonymous setup verification complete;YouTube upload and Devpost remain pending authenticated browser access.
 
 | Action | Proposed destination / payload |
 |---|---|
