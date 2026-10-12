@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "planHash": "bf6da4169588ad07307e5f189d7e52788aa103e1ed9650c1b1475199075e45c1",
+  "evidenceHash": "d993ea935c2a9a3152b27b027794c28ddb588bff0ac21792cdf0ba7a42dc6446",
+  "proposals": [
+    {
+      "caseId": "NW-01",
+      "proposalId": "d8abee2a-6b6e-4d94-b2f1-1687c8646bde"
+    },
+    {
+      "caseId": "NW-02",
+      "proposalId": "5bb857e2-f372-40a5-963f-9b926c64e90d"
+    },
+    {
+      "caseId": "NW-03",
+      "proposalId": "8262f460-69ec-4296-ba04-bff95a2286cc"
+    },
+    {
+      "caseId": "NW-04",
+      "proposalId": "4b04b48f-dc71-40b7-9588-36c10466e566"
+    },
+    {
+      "caseId": "NW-05",
+      "proposalId": "00171b17-1581-4d5b-ad71-ecc9c8779ba6"
+    }
+  ],
+  "receipts": [
+    {
+      "caseId": "NW-01",
+      "proposalId": "d8abee2a-6b6e-4d94-b2f1-1687c8646bde",
+      "memoryIds": [
+        "36f52c48-a71d-4384-ab93-e5fa3eef2a32"
+      ],
+      "taskIds": [
+        "a0cb85a5-fb4c-48d2-b224-d8182550c0ac"
+      ],
+      "outcome": "applied"
+    },
+    {
+      "caseId": "NW-02",
+      "proposalId": "5bb857e2-f372-40a5-963f-9b926c64e90d",
+      "memoryIds": [],
+      "taskIds": [],
+      "outcome": "applied"
+    },
+    {
+      "caseId": "NW-03",
+      "proposalId": "8262f460-69ec-4296-ba04-bff95a2286cc",
+      "memoryIds": [
+        "8fca46e3-15d9-4817-89c6-875c0bde7d49"
+      ],
+      "taskIds": [
+        "c17751d5-1b4a-487d-943f-88849073277f"
+      ],
+      "outcome": "applied"
+    },
+    {
+      "caseId": "NW-04",
+      "proposalId": "4b04b48f-dc71-40b7-9588-36c10466e566",
+      "memoryIds": [
+        "56549eeb-7c91-4e53-ac92-580b1b76c1ea"
+      ],
+      "taskIds": [
+        "1b745740-fc00-413c-91d5-491b79d3a704"
+      ],
+      "outcome": "applied"
+    },
+    {
+      "caseId": "NW-05",
+      "proposalId": "00171b17-1581-4d5b-ad71-ecc9c8779ba6",
+      "memoryIds": [
+        "f4c97866-91f6-435c-af13-af1842dcb6a0"
+      ],
+      "taskIds": [
+        "39a7611b-faf9-4094-a4b5-c463260de0c4"
+      ],
+      "outcome": "applied"
+    }
+  ]
+}

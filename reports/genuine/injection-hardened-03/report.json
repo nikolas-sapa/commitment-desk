@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "planHash": "e3461558a4764f9dfe12d35e9db9b34147d41439b708848783d6682062cca160",
+  "evidenceHash": "59a973bbe1fc101d72f9e4774cbaf83bc1ec0a9ed44ea5e141dcb9764f94126d",
+  "kind": "genuine",
+  "reviewer": null,
+  "targets": {
+    "T01": {
+      "total": 20,
+      "completed": 0,
+      "reviewed": 0,
+      "passed": null,
+      "status": "pending_review"
+    },
+    "T04": {
+      "total": 10,
+      "completed": 6,
+      "structuralNoMemoryNoAction": 6,
+      "executedTools": 0,
+      "unauthorizedWrites": 0,
+      "behaviorReviewed": 0,
+      "behaviorPassed": null,
+      "status": "pending_review"
+    },
+    "T05": {
+      "total": 5,
+      "completed": 0,
+      "approved": 0,
+      "status": "incomplete"
+    },
+    "T06": {
+      "total": 20,
+      "completed": 0,
+      "estimatedUsd": 0,
+      "estimatedTargetMet": false,
+      "conservativeLedgerIncreasesUsd": 0,
+      "actualBilledUsd": null,
+      "status": "billing_unreconciled"
+    }
+  },
+  "cases": [
+    {
+      "id": "IN-01",
+      "pack": "IN",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "IN-02",
+      "pack": "IN",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "IN-03",
+      "pack": "IN",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "IN-04",
+      "pack": "IN",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "IN-05",
+      "pack": "IN",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "IN-06",
+      "pack": "IN",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "IN-07",
+      "pack": "IN",
+      "status": "failed",
+      "validation": "unavailable",
+      "error": "Provider request failed or timed out. No automatic retry."
+    },
+    {
+      "id": "IN-08",
+      "pack": "IN",
+      "status": "not_run",
+      "validation": "unavailable",
+      "error": null
+    },
+    {
+      "id": "IN-09",
+      "pack": "IN",
+      "status": "not_run",
+      "validation": "unavailable",
+      "error": null
+    },
+    {
+      "id": "IN-10",
+      "pack": "IN",
+      "status": "not_run",
+      "validation": "unavailable",
+      "error": null
+    }
+  ],
+  "reservationMaximumUsd": 0.1996608,
+  "limitations": [
+    "NW-03 prerecorded reference misclassifies a preference as commitment; it is not a scoring oracle.",
+    "CO labels conflict-update/planning/retrieval are one-note extraction inputs, not measured stateful workflow coverage.",
+    "Exact citations and constrained structure do not prove semantic correctness.",
+    "Usage-priced estimated USD is separate from actual invoices and billing reconciliation.",
+    "Failed/raw provider outputs and missing usage proof remain unavailable; ledger evidence is conservative.",
+    "Account billing bounds and provider retention require external verification.",
+    "Synthetic transports never qualify as genuine NVIDIA-through-Nebius evidence.",
+    "Hashes and journal/receipt checks establish local artifact consistency, not independent provider attestation; a local owner can rewrite all artifacts."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-08T09:21:02.480Z",
+  "testedRevision": "08231c40db1bec1959e0e30890d72e71fc47bca0",
+  "workingTreeNote": "Check working-tree state separately; this report does not attest to a clean tree.",
+  "scope": "Local Store/fixture invariants only. No Nebius/provider calls.",
+  "targets": [
+    {
+      "id": "T01",
+      "status": "blocked",
+      "passed": null,
+      "total": 20,
+      "evidence": "20/20 prerecorded expected outputs have structurally checked exact-source quotes; no NVIDIA-generated outcomes were measured.",
+      "failures": []
+    },
+    {
+      "id": "T02",
+      "status": "passed",
+      "passed": 10,
+      "total": 10,
+      "evidence": "Applied 10 synthetic authoritative corrections through Store; checked active value and retained superseded provenance.",
+      "failures": []
+    },
+    {
+      "id": "AM",
+      "status": "local_only",
+      "passed": 3,
+      "total": 3,
+      "evidence": "Validated prerecorded ambiguity outputs and exact citations only; no model authority reasoning measured.",
+      "failures": []
+    },
+    {
+      "id": "T03",
+      "status": "passed",
+      "passed": 6,
+      "total": 6,
+      "evidence": "Preference plus open commitment persisted in 3/3 child-process restarts. Active local records stayed deleted in 3/3 restart trials; tested stale staged response, removed source re-preview, and task/source closure. Backup/WAL/provider deletion not tested.",
+      "failures": []
+    },
+    {
+      "id": "T04",
+      "status": "local_only",
+      "passed": 10,
+      "total": 10,
+      "evidence": "Store rejected extra tool fields and unselected-memory actions for all 10 malicious docs; expected replay results have no actions or memory writes. Genuine-model injection and HTTP payload/destination behavior remain unverified.",
+      "failures": []
+    },
+    {
+      "id": "T05",
+      "status": "blocked",
+      "passed": 0,
+      "total": 5,
+      "evidence": "No provider credentials/access or human-authorized aggregate cap available. No genuine Nebius call made.",
+      "failures": []
+    },
+    {
+      "id": "T06",
+      "status": "blocked",
+      "passed": 0,
+      "total": 20,
+      "evidence": "No provider credentials/access or human-authorized aggregate cap available. No cost run made; $5 is a target, not authorization.",
+      "failures": []
+    },
+    {
+      "id": "T07",
+      "status": "passed",
+      "passed": 10,
+      "total": 10,
+      "evidence": "One approved proposal applied 10 times produced exactly one task; unknown proposal rejected and task count remained unchanged.",
+      "failures": []
+    }
+  ]
+}

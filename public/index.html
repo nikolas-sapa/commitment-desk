@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Commitment Desk</title>
+    <link rel="preload" href="/fonts/geist-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail" aria-label="Primary navigation">
+        <a class="brand" href="#work" aria-label="Commitment Desk home"><span class="brand-mark">C</span><span>Commitment<br>Desk</span></a>
+        <div class="rail-label">WORKSPACE</div>
+        <nav class="nav-list">
+          <button class="nav-item is-active" data-view="work" aria-current="page"><span class="nav-icon" aria-hidden="true">◫</span> Workbench</button>
+          <button class="nav-item" data-view="memory"><span class="nav-icon" aria-hidden="true">◎</span> Memory</button>
+          <button class="nav-item" data-view="queue"><span class="nav-icon" aria-hidden="true">≡</span> Commitment queue</button>
+        </nav>
+        <div class="rail-foot"><span class="status-dot"></span><span>Local workspace</span><span class="rail-foot-note">Private</span></div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar"><div class="breadcrumb">Personal workspace <span>/</span> <strong id="crumb-current">Workbench</strong></div><div class="top-status"><span class="status-dot"></span><span id="provider-status">Checking local service</span></div></header>
+        <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+        <section id="view-work" class="view">
+          <div class="page-heading">
+            <div><div class="eyebrow">YOUR FOLLOW-THROUGH, IN VIEW</div><h1>Keep the promises<br class="mobile-break"> you make.</h1><p class="lede">Bring a note into focus, see what the desk will use, then decide what deserves a place in your queue.</p></div>
+            <div class="date-chip"><span class="date-kicker">TODAY</span><span id="today-date">Local session</span></div>
+          </div>
+
+          <div class="steps" aria-label="Workflow steps"><div class="step active"><span class="step-number">01</span><span>Choose a source</span></div><span class="step-line"></span><div class="step"><span class="step-number">02</span><span>Review context</span></div><span class="step-line"></span><div class="step"><span class="step-number">03</span><span>Decide what to keep</span></div></div>
+
+          <div class="work-grid">
+            <section class="panel source-panel" aria-labelledby="source-title">
+              <div class="panel-heading"><div><span class="step-tag">STEP 01</span><h2 id="source-title">Choose a source</h2></div><span id="source-count" class="count-pill">0 selected</span></div>
+              <p class="panel-copy">Start with a fixture note or add a short note of your own. Nothing is sent until you choose a run mode.</p>
+              <div class="tab-bar" role="tablist" aria-label="Source type"><button class="tab is-selected" role="tab" aria-selected="true" data-source-tab="fixtures">Example notes</button><button class="tab" role="tab" aria-selected="false" data-source-tab="write">Write a note</button></div>
+              <div id="fixture-source-panel" class="tab-panel" role="tabpanel"><div id="fixture-list" class="fixture-list"><div class="empty-state">Loading example notes…</div></div><div id="saved-source-list" class="saved-source-list"></div></div>
+              <form id="note-form" class="tab-panel note-form" role="tabpanel" hidden>
+                <label for="note-title">Note title</label><input id="note-title" name="title" maxlength="200" required placeholder="e.g. Design handoff">
+                <label for="note-text">Note text</label><textarea id="note-text" name="text" maxlength="20000" required rows="5" placeholder="Paste a note or write down a commitment…"></textarea>
+                <label for="note-date">When did this happen? <span class="optional">Optional</span></label><input id="note-date" name="eventTime" type="datetime-local">
+                <button class="button button-primary button-sm" type="submit">Add note to sources</button>
+              </form>
+              <div class="source-footer"><div class="selected-summary"><span class="summary-icon" aria-hidden="true">↳</span><span id="selected-summary-text">Select one or more notes to continue.</span></div><button id="continue-preview" class="button button-secondary button-sm" type="button" disabled>Review context <span aria-hidden="true">→</span></button></div>
+            </section>
+
+            <section class="panel context-panel" aria-labelledby="context-title">
+              <div class="panel-heading"><div><span class="step-tag">STEP 02</span><h2 id="context-title">Set the question</h2></div><span class="quiet-label">Your selection</span></div>
+              <label for="query" class="field-label">What do you want to know?</label><textarea id="query" rows="3" maxlength="2000">What should I follow up on next?</textarea>
+              <div class="memory-picker-head"><div><span class="field-label">Include saved memory</span><span class="helper">Optional. Only selected items are included.</span></div><button id="reload-state" class="text-button" type="button">Refresh</button></div>
+              <div id="memory-picker" class="memory-picker"><div class="empty-state">Loading active memory…</div></div>
+              <button id="make-preview" class="button button-primary full-button" type="button" disabled>Preview exact context <span aria-hidden="true">→</span></button>
+              <div class="privacy-note"><span aria-hidden="true">◇</span> Selected notes and memory appear in the preview before any run.</div>
+            </section>
+          </div>
+
+          <section id="preview-section" class="panel preview-panel" aria-labelledby="preview-title" hidden>
+            <div class="panel-heading"><div><span class="step-tag">STEP 02 · REVIEW</span><h2 id="preview-title">Exact context for this run</h2></div><span class="revision-label" id="preview-revision"></span></div>
+            <p class="panel-copy">Inspect the full request envelope, including selected source text and memory. A run uses this exact snapshot.</p>
+            <div class="envelope-meta"><div><span>MODE</span><strong id="preview-mode">Fixture replay</strong></div><div><span>DESTINATION</span><strong id="preview-destination">Local fixture</strong></div><div><span>MODEL</span><strong id="preview-model">No model call</strong></div></div>
+            <pre id="payload-preview" class="payload-preview" tabindex="0" aria-label="Full request payload"></pre>
+            <div class="run-controls"><label for="run-mode">Run mode</label><select id="run-mode"><option value="fixture">Fixture replay · no model call</option><option value="nebius">Nebius · live inference</option></select><div class="fixture-select-wrap" id="fixture-select-wrap"><label for="fixture-select">Matching fixture</label><select id="fixture-select"></select></div><div id="live-note" class="inline-note" hidden></div><button id="run-button" class="button button-primary" type="button">Run selected mode</button></div>
+            <div id="run-result" class="run-result" hidden></div>
+          </section>
+        </section>
+
+        <section id="view-memory" class="view" hidden><div class="page-heading compact"><div><div class="eyebrow">WHAT THE DESK REMEMBERS</div><h1>Memory</h1><p class="lede">Review active commitments and preferences, including where each came from.</p></div><button class="button button-secondary" data-view="work" type="button">Back to workbench</button></div><div class="tab-bar memory-tabs" role="tablist" aria-label="Memory view"><button class="tab is-selected" data-memory-filter="active" role="tab" aria-selected="true">Active</button><button class="tab" data-memory-filter="history" role="tab" aria-selected="false">History</button></div><div id="memory-list" class="record-list"></div></section>
+
+        <section id="view-queue" class="view" hidden><div class="page-heading compact"><div><div class="eyebrow">COMMITTED BY YOU</div><h1>Commitment queue</h1><p class="lede">Only tasks created by an explicit apply appear here.</p></div><span class="count-pill" id="task-count">0 tasks</span></div><div id="task-list" class="record-list"></div></section>
+        <footer class="footer"><span>Commitment Desk</span><span>Local-first · Human-approved</span></footer>
+      </main>
+    </div>
+    <dialog id="review-dialog" class="review-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close review">×</button></form><div id="dialog-content"></div></dialog>
+  </body>
+</html>

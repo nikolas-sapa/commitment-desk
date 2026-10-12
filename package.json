@@ -1,0 +1,14 @@
+{
+  "name": "commitment-desk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=25.8.1"},
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "evaluate": "node evaluation/run.mjs",
+    "evaluate:live": "node --env-file-if-exists=.env evaluation/live.mjs"
+  },
+  "dependencies": {"@fontsource/geist-sans": "5.3.0"}
+}

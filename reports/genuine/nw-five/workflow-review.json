@@ -1,0 +1,31 @@
+{
+  "evidenceHash": "d993ea935c2a9a3152b27b027794c28ddb588bff0ac21792cdf0ba7a42dc6446",
+  "reviewer": {
+    "kind": "agent",
+    "identity": "code_review, gpt-6.1-sol"
+  },
+  "localWritesApproved": true,
+  "decisions": [
+    {
+      "caseId": "NW-01",
+      "reason": "Commitment,Lee,October20 deadline supported."
+    },
+    {
+      "caseId": "NW-02",
+      "reason": "Room confirmation and October15 supported;answer-only,zero generated records."
+    },
+    {
+      "caseId": "NW-03",
+      "reason": "Preference kind/proposal supported;answer prematurely claims recorded before apply."
+    },
+    {
+      "caseId": "NW-04",
+      "reason": "October22 calculation correct;stored memory/task retain relative date wording."
+    },
+    {
+      "caseId": "NW-05",
+      "reason": "Jo/date supported,summary preparation reasonable recommendation."
+    }
+  ],
+  "limitation": "Workflow completion does not establish flawless semantic quality."
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "planHash": "bf6da4169588ad07307e5f189d7e52788aa103e1ed9650c1b1475199075e45c1",
+  "evidenceHash": "d993ea935c2a9a3152b27b027794c28ddb588bff0ac21792cdf0ba7a42dc6446",
+  "kind": "genuine",
+  "reviewer": null,
+  "targets": {
+    "T01": {
+      "total": 20,
+      "completed": 0,
+      "reviewed": 0,
+      "passed": null,
+      "status": "pending_review"
+    },
+    "T04": {
+      "total": 10,
+      "completed": 0,
+      "structuralNoMemoryNoAction": 0,
+      "executedTools": 0,
+      "unauthorizedWrites": 0,
+      "behaviorReviewed": 0,
+      "behaviorPassed": null,
+      "status": "pending_review"
+    },
+    "T05": {
+      "total": 5,
+      "completed": 5,
+      "approved": 5,
+      "status": "passed"
+    },
+    "T06": {
+      "total": 20,
+      "completed": 0,
+      "estimatedUsd": 0,
+      "estimatedTargetMet": false,
+      "conservativeLedgerIncreasesUsd": 0,
+      "actualBilledUsd": null,
+      "status": "billing_unreconciled"
+    }
+  },
+  "cases": [
+    {
+      "id": "NW-01",
+      "pack": "NW",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "NW-02",
+      "pack": "NW",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "NW-03",
+      "pack": "NW",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "NW-04",
+      "pack": "NW",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "NW-05",
+      "pack": "NW",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    }
+  ],
+  "reservationMaximumUsd": 0.0998304,
+  "limitations": [
+    "NW-03 prerecorded reference misclassifies a preference as commitment; it is not a scoring oracle.",
+    "CO labels conflict-update/planning/retrieval are one-note extraction inputs, not measured stateful workflow coverage.",
+    "Exact citations and constrained structure do not prove semantic correctness.",
+    "Usage-priced estimated USD is separate from actual invoices and billing reconciliation.",
+    "Failed/raw provider outputs and missing usage proof remain unavailable; ledger evidence is conservative.",
+    "Account billing bounds and provider retention require external verification.",
+    "Synthetic transports never qualify as genuine NVIDIA-through-Nebius evidence.",
+    "Hashes and journal/receipt checks establish local artifact consistency, not independent provider attestation; a local owner can rewrite all artifacts."
+  ]
+}

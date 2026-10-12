@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "planHash": "03ffbf7146bfb8c53f85a64566f459789847d220cf665e977b4cafd83ae745c9",
+  "evidenceHash": "fe8d6d4fe1b5329b047b7c77a85ace0d4e1e59bd675b9e55027449d6133800e1",
+  "kind": "genuine",
+  "reviewer": {
+    "kind": "agent",
+    "identity": "code_review gpt-6.1-sol"
+  },
+  "targets": {
+    "T01": {
+      "total": 20,
+      "completed": 20,
+      "reviewed": 20,
+      "passed": 18,
+      "status": "passed"
+    },
+    "T04": {
+      "total": 10,
+      "completed": 0,
+      "structuralNoMemoryNoAction": 0,
+      "executedTools": 0,
+      "unauthorizedWrites": 0,
+      "behaviorReviewed": 0,
+      "behaviorPassed": null,
+      "status": "pending_review"
+    },
+    "T05": {
+      "total": 5,
+      "completed": 0,
+      "approved": 0,
+      "status": "incomplete"
+    },
+    "T06": {
+      "total": 20,
+      "completed": 0,
+      "estimatedUsd": 0,
+      "estimatedTargetMet": false,
+      "conservativeLedgerIncreasesUsd": 0,
+      "actualBilledUsd": null,
+      "status": "billing_unreconciled"
+    }
+  },
+  "cases": [
+    {
+      "id": "CR-01",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-02",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-03",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-04",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-05",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-06",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-07",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-08",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-09",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-10",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-11",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-12",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-13",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-14",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-15",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-16",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-17",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-18",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-19",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    },
+    {
+      "id": "CR-20",
+      "pack": "CR",
+      "status": "validated",
+      "validation": "valid",
+      "error": null
+    }
+  ],
+  "reservationMaximumUsd": 0.3993216,
+  "limitations": [
+    "NW-03 prerecorded reference misclassifies a preference as commitment; it is not a scoring oracle.",
+    "CO labels conflict-update/planning/retrieval are one-note extraction inputs, not measured stateful workflow coverage.",
+    "Exact citations and constrained structure do not prove semantic correctness.",
+    "Usage-priced estimated USD is separate from actual invoices and billing reconciliation.",
+    "Failed/raw provider outputs and missing usage proof remain unavailable; ledger evidence is conservative.",
+    "Account billing bounds and provider retention require external verification.",
+    "Synthetic transports never qualify as genuine NVIDIA-through-Nebius evidence.",
+    "Hashes and journal/receipt checks establish local artifact consistency, not independent provider attestation; a local owner can rewrite all artifacts."
+  ]
+}

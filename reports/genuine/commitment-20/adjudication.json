@@ -1,0 +1,26 @@
+{
+  "evidenceHash": "fe8d6d4fe1b5329b047b7c77a85ace0d4e1e59bd675b9e55027449d6133800e1",
+  "reviewer": {"kind":"agent","identity":"code_review gpt-6.1-sol"},
+  "decisions": [
+    {"caseId":"CR-01","factualCorrect":true,"supported":true,"reason":"Mira and Friday preserved; preparing delivery is a grounded recommended step."},
+    {"caseId":"CR-02","factualCorrect":true,"supported":true,"reason":"Sharing review notes with team tomorrow morning is supported; answer-only suffices."},
+    {"caseId":"CR-03","factualCorrect":false,"supported":false,"reason":"Proposed action changes before the20th to by the20th, weakening the supported deadline."},
+    {"caseId":"CR-04","factualCorrect":true,"supported":true,"reason":"Follow-up with Noor after pilot meeting consistently preserved with exact quotation."},
+    {"caseId":"CR-05","factualCorrect":true,"supported":true,"reason":"Correct2026-10-21 grant deadline; query does not require new records."},
+    {"caseId":"CR-06","factualCorrect":true,"supported":true,"reason":"Preparation follows readiness requirement; October16 deadline explicit in answer and memory."},
+    {"caseId":"CR-07","factualCorrect":true,"supported":true,"reason":"Decision before November3 renewal preserved; considering options is grounded recommendation."},
+    {"caseId":"CR-08","factualCorrect":true,"supported":true,"reason":"Booking action,October12 deadline and group-fare purpose supported."},
+    {"caseId":"CR-09","factualCorrect":true,"supported":true,"reason":"Legal review is remaining step; scheduling review is recommendation,not existing-meeting claim."},
+    {"caseId":"CR-10","factualCorrect":true,"supported":true,"reason":"Projector confirmation prioritized; completed venue booking not repeated."},
+    {"caseId":"CR-11","factualCorrect":true,"supported":true,"reason":"Starting dataset validation follows completed import and unstarted validation."},
+    {"caseId":"CR-12","factualCorrect":false,"supported":false,"reason":"Approved request and untested access support testing access next; abstention misses available next action."},
+    {"caseId":"CR-13","factualCorrect":true,"supported":true,"reason":"Tuesday-afternoon meeting preference exactly supported."},
+    {"caseId":"CR-14","factualCorrect":true,"supported":true,"reason":"One-day-before-deadline reminder preference preserved without inventing concrete deadline or execution."},
+    {"caseId":"CR-15","factualCorrect":true,"supported":true,"reason":"Short updates and clear ownership supported; no specific owner invented."},
+    {"caseId":"CR-16","factualCorrect":true,"supported":true,"reason":"Before-lunch recommendation grounded in focus preference without invented clock time."},
+    {"caseId":"CR-17","factualCorrect":true,"supported":true,"reason":"Unfinished checklist identifies neither promise nor recipient; abstention appropriate."},
+    {"caseId":"CR-18","factualCorrect":true,"supported":true,"reason":"Access request has no promised date; event timestamp not misused as promise timing."},
+    {"caseId":"CR-19","factualCorrect":true,"supported":true,"reason":"Mentioned revised plan establishes no personal commitment; abstention appropriate."},
+    {"caseId":"CR-20","factualCorrect":true,"supported":true,"reason":"Room/window observation supplies no project next action; abstention appropriate."}
+  ]
+}
