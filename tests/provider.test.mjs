@@ -171,7 +171,8 @@ test('process interruption preserves reservation, restart cannot spend it twice'
   t.after(async()=>{server.closeAllConnections();await new Promise(resolve=>server.close(resolve));});
   const child=spawn(process.execPath,['--input-type=module','-e',script,JSON.stringify(settings),`http://127.0.0.1:${server.address().port}`,JSON.stringify(preview)],{stdio:'ignore'});
   t.after(()=>{if(child.exitCode===null) child.kill('SIGKILL');});
-  for(let i=0;i<100&&!existsSync(settings.ledgerPath);i++) await new Promise(resolve=>setTimeout(resolve,10));
+  // Child startup can exceed 1s on a cold, parallel test run; poll by deadline and stop early if the child exits.
+  for(const deadline=Date.now()+10000;Date.now()<deadline&&child.exitCode===null&&!existsSync(settings.ledgerPath);) await new Promise(resolve=>setTimeout(resolve,10));
   assert.ok(existsSync(settings.ledgerPath)); child.kill('SIGKILL'); await new Promise(resolve=>child.once('exit',resolve));
   const gate=new ProviderGate({...settings,transport:transport.transport}); assert.equal(gate.status().reservedUsd,reservation); assert.equal(gate.status().enabled,false);
   await assert.rejects(gate.infer(gate.prepare(preview))); assert.equal(transport.calls,0);
